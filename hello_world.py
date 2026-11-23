@@ -20,4 +20,4 @@ def count_words(text):
 if __name__ == "__main__":
     print(greet("World")) # Call the greet function and print the result
     print(farewell("World")) # Call the farewell function and print the result
-    #print(f"Word count: {count_words('Hello World Welcome to Git')}") #Should print 5
+    print(f"Word count: {count_words('Hello World Welcome to Git')}") #Should print 5
