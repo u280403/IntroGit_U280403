@@ -12,6 +12,10 @@ def farewell(name):
 # This block runs only when the file is executed directly,
 # not when it is imported as a module from another file.
 
+def count_words(text):
+   """Count the number of words in the given text."""
+   words = text.split() # Split the string by whitespace into a list
+   return len(words) # Return the number of elements in the list
 
 if __name__ == "__main__":
     print(greet("World")) # Call the greet function and print the result
